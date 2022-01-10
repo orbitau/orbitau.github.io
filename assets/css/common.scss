@@ -1,0 +1,110 @@
+.box-contract {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	text-align: center;
+	margin-top: 20px;
+	z-index: 10;
+	@media (max-width: 767px) {
+		width: 90%;
+		margin-top: 10px;
+	}
+
+	.title {
+		color: #f1d7b5;
+		font-size: 20px;
+		font-weight: bold;
+		line-height: 1;
+		margin-bottom: 10px;
+		@media (max-width: 767px) {
+			font-size: 14px;
+			margin-bottom: 5px;
+		}
+	}
+
+	.content {
+		display: inline-flex;
+		align-items: center;
+		color: white;
+
+		.line {
+			font-weight: bold;
+			margin-right: 10px;
+			padding-right: 15px;
+			border-right: 1px solid white;
+			@media (max-width: 767px) {
+				margin-right: 5px;
+				padding-right: 10px;
+			}
+		}
+
+		.contract {
+			@media (max-width: 767px) {
+				white-space: nowrap;
+				font-size: 10px;
+			}
+		}
+	}
+
+	.btn-copy {
+		background-color: transparent;
+		padding: 0;
+		margin-left: 15px;
+		@media (max-width: 767px) {
+			margin: 0 0 0 10px !important;
+		}
+
+		img {
+			width: 20px;
+			height: 20px;
+			object-fit: contain;
+			@media (max-width: 767px) {
+				width: 10px;
+				height: 10px;
+			}
+		}
+	}
+}
+
+.button-buy-token {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	padding: 1rem 0;
+	width: 100%;
+	text-align: center;
+	@media (max-width: 767px) {
+		display: block;
+
+		a {
+			display: block;
+		}
+
+		img {
+			width: auto;
+			margin: auto;
+			float: none;
+		}
+	}
+}
+
+.custom-img {
+	width: auto;
+	height: 40px;
+	object-fit: contain;
+}
+
+.btn-group-top {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+	height: auto !important;
+	@media (max-width: 767px) {
+		display: none;
+	}
+
+	a + a {
+		margin-left: 10px;
+	}
+}

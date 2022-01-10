@@ -1,0 +1,73 @@
+a:not(.disabled) {
+	color: white !important;
+
+	&:hover {
+		text-decoration: none;
+		color: $secondary_color !important;
+	}
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: $font_weight_semi;
+}
+
+.btn {
+	&.btn-custom {
+		background-color: transparent;
+		padding: 0;
+		@include mobile {
+			margin-top: 1rem;
+		}
+	}
+
+	&.btn-tooltip {
+		background-color: transparent;
+		padding: 0;
+		line-height: 1;
+
+		&:focus {
+			box-shadow: none;
+		}
+	}
+
+	&.btn-copy {
+		@include custom_device {
+			margin: 1rem 0;
+		}
+		@include moblet {
+			margin: 1rem 0;
+		}
+	}
+}
+
+@media (min-width: 1400px) {
+	.container {
+		max-width: 1600px;
+	}
+}
+
+.form-control, .form-control[readonly] {
+	height: 40px;
+	border: 1px solid $primary_color;
+	border-radius: 8px;
+	background-color: #22212F;
+	color: #CCCCCC;
+}
+
+.custom-input {
+	height: auto;
+	padding: 0.6rem 0.75rem;
+}
+
+.mobile {
+	display: none;
+}
+
+@include moblet {
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+}

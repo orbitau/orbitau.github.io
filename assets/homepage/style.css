@@ -1,0 +1,1372 @@
+body {
+	background-color: #000;
+	background-size: 100%;
+	width: 100%;
+	font-weight: normal;
+	z-index: -100;
+	font-family: arial;
+	margin: 0px;
+	height: auto;
+	font-size: 16px;
+	-moz-osx-font-smoothing: grayscale;
+	-moz-user-select: none;
+	text-rendering: optimizelegibility;
+	outline: none;
+	color: #333;
+	line-height: 18px;
+}
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float: left;
+}
+img {
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 100%;
+}
+button {
+	background-color: #00acf2;
+	padding: 8px 12px;
+	border-radius: 4px;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+}
+button:hover {
+	background-color: #f0f0f0;
+	cursor: pointer;
+	color: #333;
+}
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+p,
+blockquote,
+figure,
+form,
+fieldset,
+input,
+legend,
+pre,
+abbr {
+	margin: 0;
+	padding: 0;
+}
+a {
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 0.3px;
+}
+a:hover {
+	color: #ff00ae;
+}
+
+/*--------------------------------------------- HOME PAGE --------------------------------------*/
+
+.background-top-0 {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.background-top-0 .hinhbieudien {
+	width: 1480px;
+	margin: 0 auto;
+}
+.background-top-1 {
+	width: 100%;
+	background-image: url("images/background-top-4.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: -5;
+	position: fixed;
+}
+.background-top-2 {
+	width: 100%;
+	background-image: url("images/background-top-2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: -3;
+	position: fixed;
+}
+.background-top-3 {
+	width: 100%;
+	background-image: url("images/background-top-3.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: -4;
+	position: fixed;
+}
+.background-top-4 {
+	width: 100%;
+	background-image: url("images/background-top.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: -2;
+	position: fixed;
+}
+.background-top-5 {
+	width: 100%;
+	background-image: url("images/background-top-4.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	z-index: -1;
+	position: fixed;
+}
+.header {
+	width: 100%;
+	float: left;
+}
+.header .logo {
+	width: 450px;
+	margin: 0 auto;
+}
+.header .logo video {
+	width: 450px;
+}
+.menu {
+	width: 1230px;
+	margin: 0 auto;
+	height: 100px;
+}
+.menu .position {
+	width: 100%;
+	margin-top: -40px;
+	position: relative;
+}
+.menu .position .background-menu {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.menu .position .link {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	padding-top: 85px;
+	padding-left: 40px;
+	z-index: 1000;
+}
+.menu .position .link ul li {
+	padding: 0 20px;
+	margin: 0 20px;
+}
+.menu .position .light-menu {
+	position: absolute;
+	top: 68px;
+	left: 25px;
+	width: 185px;
+}
+
+.gamefeature {
+	width: 1600px;
+	margin: 0 auto;
+}
+.gamefeature .bando {
+	width: 1600px;
+	margin: 70px 0px;
+	float: left;
+	position: relative;
+}
+.gamefeature .map {
+	width: 1560px;
+	padding: 0 15px;
+	float: left;
+	padding-bottom: 60px;
+	margin-top: 40px;
+}
+.gamefeature .map .mapinfo {
+	width: 520px;
+	padding: 0 0px;
+	margin-top: 80px;
+	float: left;
+}
+.gamefeature .map .text {
+	width: 100%;
+	padding: 0px 400px 0px 400px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #fff;
+	line-height: 28px;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	color: #ddd;
+}
+.gamefeature .gfttitle {
+	width: 1360px;
+	margin: 0px 120px 20px 120px;
+	float: left;
+	margin-bottom: 20px;
+}
+.gamefeature .content {
+	width: 80%;
+	padding: 0 10%;
+	float: left;
+	margin-bottom: 60px;
+}
+.gamefeature .content .feature {
+	width: 21%;
+	padding: 0 2%;
+	float: left;
+}
+.gamefeature .content .feature .avatar {
+	width: 70%;
+	padding: 0 15%;
+	float: left;
+}
+.gamefeature .content .feature .infomation {
+	width: 90%;
+	padding: 0 5%;
+	float: left;
+	text-align: center;
+}
+.gamefeature .content .feature .infomation .title {
+	width: 100%;
+	text-align: center;
+	padding: 15px 0 20px 0;
+	color: #fff;
+}
+.gamefeature .content .feature .infomation .text {
+	width: 100%;
+	text-align: center;
+	color: #bbb;
+	line-height: 24px;
+}
+
+.gamefeature .minhhoagame {
+	width: 1560px;
+	padding: 60px 20px 60px 20px;
+	float: left;
+}
+.gamefeature .minhhoagame .oneblock {
+	width: 1560px;
+	padding-bottom: 20px;
+	float: left;
+}
+.gamefeature .minhhoagame .oneblock .blockleft {
+	width: 620px;
+	padding-right: 10px;
+	float: left;
+}
+.gamefeature .minhhoagame .oneblock .blockleft:last-child {
+	width: 620px;
+	padding-right: 0px;
+	padding-left: 10px;
+	float: left;
+}
+
+.cauchuyen {
+	width: 1600px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	padding: 0px 360px;
+	box-sizing: border-box;
+	color: #fff;
+	line-height: 26px;
+	color: #ccc;
+	letter-spacing: 0.5px;
+}
+.cauchuyen span {
+	color: #fff;
+}
+.wrap {
+	width: 100%;
+	float: left;
+}
+.cover {
+	width: 1600px;
+	height: 912px;
+	background-color: #000;
+	margin: 0 auto;
+}
+.cover video {
+	width: 1600px;
+	height: 912px;
+	margin: 0px 0 120px 0;
+	float: left;
+}
+
+.roadmap-title {
+	width: 100%;
+	float: left;
+	padding-bottom: 40px;
+}
+.roadmap-title img {
+	width: 100%;
+}
+
+.roadmap-1 {
+	width: 1260px;
+	margin: 0 auto;
+}
+.roadmap-1 .rm-hoanggia {
+	width: 1260px;
+	margin: 100px 0px;
+	float: left;
+}
+.roadmap-1 .content {
+	width: 33.3%;
+	float: left;
+	height: 500px;
+	text-align: center;
+	padding-bottom: 45px;
+	position: relative;
+}
+.roadmap-1 .content img.background-roadmap {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.roadmap-1 .content .infomation {
+	width: 70%;
+	padding: 92px 15% 0 15%;
+	position: relative;
+	top: 0;
+	left: 0;
+	color: #fff;
+	text-align: left;
+	letter-spacing: 1.5px;
+}
+.roadmap-1 .content .infomation .line-text-title {
+	width: 80%;
+	padding: 0 10%;
+	float: left;
+	line-height: 24px;
+}
+.roadmap-1 .content .infomation .line-text {
+	width: 80%;
+	padding: 0 10%;
+	float: left;
+	line-height: 24px;
+	color: #bbb;
+}
+.roadmap-1 .content .infomation .height-spacing {
+	width: 100%;
+	height: 20px;
+	float: left;
+}
+
+.roadmap-2 {
+	width: 840px;
+	margin: 0 auto;
+}
+.roadmap-2 .content {
+	width: 33.3%;
+	float: left;
+	height: 500px;
+	text-align: center;
+	padding-bottom: 45px;
+	position: relative;
+}
+.roadmap-2 .content img.background-roadmap {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.roadmap-2 .content {
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding-bottom: 90px;
+}
+.roadmap-2 .content .infomation {
+	width: 70%;
+	padding: 92px 15% 0 15%;
+	position: relative;
+	top: 0;
+	left: 0;
+	color: #fff;
+	text-align: left;
+	letter-spacing: 1.5px;
+}
+.roadmap-2 .content .infomation .line-text-title {
+	width: 80%;
+	padding: 0 10%;
+	float: left;
+	line-height: 24px;
+}
+.roadmap-2 .content .infomation .line-text {
+	width: 80%;
+	padding: 0 10%;
+	float: left;
+	line-height: 24px;
+	color: #bbb;
+}
+.roadmap-2 .content .infomation .height-spacing {
+	width: 100%;
+	height: 20px;
+	float: left;
+}
+
+.ourteam-1 {
+	width: 1600px;
+	margin: 0 auto;
+	padding: 100px 120px 0 120px;
+	box-sizing: border-box;
+}
+.ourteam-1 .ourteam-title {
+	width: 1360px;
+	margin: 0px 0px 50px 0px;
+	float: left;
+}
+.ourteam-1 .coreteam {
+	width: 100%;
+	float: left;
+}
+.ourteam-1 .coreteam .core-personal {
+	width: 50%;
+	float: left;
+}
+.ourteam-1 .coreteam .core-personal .avatar {
+	width: 42%;
+	margin: 0 4% 0 4%;
+	float: left;
+	border-radius: 0 14px 0 14px;
+	overflow: hidden;
+}
+.ourteam-1 .coreteam .core-personal .core-personal-info {
+	width: 50%;
+	padding-right: 5%;
+	padding-left: 1%;
+	padding-top: 20px;
+	letter-spacing: 0.8px;
+	box-sizing: border-box;
+	float: left;
+	font-size: 14px;
+	line-height: 22px;
+}
+.ourteam-1 .coreteam .core-personal .core-personal-info .name {
+	width: 100%;
+	float: left;
+	padding-bottom: 5px;
+	color: #fff;
+}
+.ourteam-1 .coreteam .core-personal .core-personal-info .chucdanh {
+	width: 100%;
+	float: left;
+	padding-top: 0px;
+	font-style: italic;
+	color: #aaa;
+}
+.ourteam-1 .coreteam .core-personal .core-personal-info .info {
+	width: 100%;
+	float: left;
+	padding-top: 25px;
+	color: #ccc;
+}
+.ourteam-1 .coreteam .avatarcore {
+	width: 21%;
+	float: left;
+}
+
+.ourteam-1 .personal {
+	width: 21%;
+	float: left;
+	padding: 60px 2% 60px 2%;
+	color: #fff;
+}
+.ourteam-1 .personal .avatar {
+	width: 100%;
+	float: left;
+	border-radius: 0 14px 0 14px;
+	overflow: hidden;
+}
+.ourteam-1 .personal .team-info {
+	width: 100%;
+	float: left;
+	padding: 25px 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+}
+.ourteam-1 .personal .team-info .name {
+	width: 100%;
+	float: left;
+	padding-bottom: 2px;
+}
+.ourteam-1 .personal .team-info .chucdanh {
+	width: 100%;
+	float: left;
+	padding-top: 0px;
+	font-style: italic;
+	color: #aaa;
+}
+.ourteam-1 .personal .team-info .info {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	color: #ccc;
+}
+
+.backer {
+	width: 1360px;
+	height: 148px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.tokenomic {
+	width: 100%;
+	float: left;
+	height: 1080px;
+	background-size: 1920px;
+	background-image: url(images/tokenomics.jpg);
+	background-position: top center;
+}
+.tokenomic-mobile-title {
+	display: none;
+}
+.tokenomic .tokenomic-mobile {
+	display: none;
+}
+.trung1 {
+	display: block;
+}
+.trung2 {
+	display: none;
+}
+.logobacker-1 {
+	display: block;
+}
+.logobacker-2 {
+	display: none;
+}
+.cothuong {
+	display: block;
+}
+.comb {
+	display: none;
+}
+.bgroadmap1 {
+	display: block;
+}
+.bgroadmap2 {
+	display: none;
+}
+
+.footer {
+	width: 1260px;
+	margin: 0 auto;
+	background-color: #000;
+}
+.footer .infomation-footer {
+	width: 460px;
+	float: left;
+}
+.footer .infomation-footer .logo {
+	width: 100%;
+	float: left;
+}
+.footer .infomation-footer .logo video {
+	width: 50%;
+	float: left;
+	height: auto;
+	padding-left: 22%;
+}
+.footer .infomation-footer .copyright {
+	width: 30%;
+	float: left;
+	text-align: center;
+	color: #666;
+	font-size: 13px;
+	width: 100%;
+	padding-top: 20px;
+}
+.footer .infomation-footer ul {
+	width: 100%;
+	text-align: left;
+	color: #fff;
+	padding-top: 30px;
+}
+.footer .infomation-footer ul li {
+	float: left;
+	padding: 0 25px 0 0;
+	text-align: center;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 15px;
+	color: #bbb;
+}
+.footer .infomation-footer ul li a {
+	color: #bbb;
+	padding: 5px 0;
+}
+.footer .infomation-footer ul li a:hover {
+	color: #ff00ae;
+}
+.footer video {
+	width: 800px;
+	float: right;
+	height: auto;
+}
+
+.bieudien1 {
+	display: block;
+}
+.bieudien2 {
+	display: none;
+}
+.ourlitepaper {
+	display: none;
+}
+
+.vien-ngoc {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	width: 100px;
+	height: 100px;
+	background-position: 0 0;
+}
+.blue {
+	background-image: url(images/ngoc/blue.png);
+}
+.grey {
+	background-image: url(images/ngoc/grey.png);
+}
+.orange {
+	background-image: url(images/ngoc/orange.png);
+}
+.red {
+	background-image: url(images/ngoc/red.png);
+}
+.green {
+	background-image: url(images/ngoc/green.png);
+}
+
+@media only screen and (max-width: 1630px) {
+	.cauchuyen {
+		width: 1260px;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 100px;
+		margin-bottom: 80px;
+		padding: 0px 260px;
+		box-sizing: border-box;
+		color: #fff;
+		line-height: 26px;
+		color: #ccc;
+		letter-spacing: 0.5px;
+	}
+
+	.cauchuyen span {
+		color: #fff;
+	}
+
+	.wrap {
+		width: 100%;
+		float: left;
+	}
+
+	.cover {
+		width: 1260px;
+		height: 720px;
+		margin: 0 auto;
+	}
+
+	.cover video {
+		width: 1260px;
+		height: 720px;
+		margin: 0px 0 90px 0;
+		float: left;
+	}
+
+	.gamefeature {
+		width: 1260px;
+		margin: 0 auto;
+	}
+
+	.gamefeature .gfttitle {
+		width: 1120px;
+		margin: 0px 70px 20px 70px;
+		float: left;
+		margin-bottom: 60px;
+	}
+
+	.gamefeature .bando {
+		width: 1260px;
+		margin: 70px 20px;
+		float: left;
+		position: relative;
+	}
+
+	.gamefeature .map {
+		width: 1230px;
+		padding: 0 15px;
+		float: left;
+		padding-bottom: 60px;
+		margin-top: 40px;
+	}
+
+	.gamefeature .map .text {
+		width: 100%;
+		padding: 0px 200px 0px 200px;
+		box-sizing: border-box;
+		text-align: center;
+		color: #fff;
+		line-height: 28px;
+		font-size: 18px;
+		letter-spacing: 1.5px;
+		color: #ddd;
+	}
+
+	.gamefeature .content {
+		width: 100%;
+		float: left;
+		margin-bottom: 60px;
+		padding: 0;
+	}
+
+	.gamefeature .minhhoagame {
+		width: 1200px;
+		padding: 30px 30px 30px 30px;
+		float: left;
+	}
+
+	.gamefeature .minhhoagame .oneblock {
+		width: 1200px;
+		padding-bottom: 20px;
+		float: left;
+	}
+
+	.gamefeature .minhhoagame .oneblock .blockleft {
+		width: 620px;
+		padding-right: 10px;
+		float: left;
+	}
+
+	.gamefeature .minhhoagame .oneblock .blockleft:last-child {
+		width: 620px;
+		padding-right: 0px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	.gamefeature .map .mapinfo {
+		width: 410px;
+		padding: 0 0px;
+		margin-top: 80px;
+		float: left;
+	}
+
+	.ourteam-1 {
+		width: 1260px;
+		margin: 0 auto;
+		padding: 40px 0px 0 0px;
+		box-sizing: border-box;
+	}
+
+	.ourteam-1 .ourteam-title {
+		width: 1120px;
+		margin: 0px 70px 50px 70px;
+		float: left;
+	}
+
+	.backer {
+		width: 1120px;
+		height: 128px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.roadmap-1 .rm-hoanggia {
+		width: 1120px;
+		margin: 20px 70px 80px 70px;
+		float: left;
+	}
+
+	.background-top-0 .hinhbieudien {
+		width: 1260px;
+		margin: 0 auto;
+	}
+
+	.tokenomic {
+		width: 100%;
+		float: left;
+		height: 720px;
+		background-size: 1560px;
+		background-image: url(images/tokenomics.jpg);
+		background-position: top center;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.cauchuyen {
+		width: 100%;
+		float: left;
+		padding: 0 20px;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 50px;
+		box-sizing: border-box;
+		color: #fff;
+		line-height: 26px;
+		color: #ccc;
+		letter-spacing: 0.5px;
+	}
+
+	.cauchuyen span {
+		color: #fff;
+	}
+
+	.wrap {
+		width: 100%;
+		float: left;
+	}
+
+	.cover {
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+	.cover video {
+		width: 100%;
+		margin: 0px 0 40px 0;
+		height: auto;
+		float: left;
+	}
+
+	.gamefeature {
+		width: 100%;
+		float: left;
+	}
+
+	.gamefeature .gfttitle {
+		width: 100%;
+		margin: 20px 0 0px 0px;
+		float: left;
+		margin-bottom: 60px;
+	}
+
+	.gamefeature .vongmathuat {
+		width: 90%;
+		margin: 0 5%;
+		float: left;
+		height: auto;
+		position: static;
+	}
+
+	.gamefeature .vongmathuat .nguhanh {
+		width: 100%;
+		float: left;
+		position: static;
+	}
+
+	.gamefeature .vongmathuat .avatar-loop {
+		width: 80%;
+		float: left;
+		height: auto;
+		position: static;
+		top: 0;
+		left: 0;
+	}
+
+	.gamefeature .vongmathuat .avatar-loop video {
+		width: 100%;
+	}
+
+	.gamefeature .bando {
+		width: 100%;
+		margin: 0 0 30px;
+		float: left;
+		position: relative;
+	}
+
+	.gamefeature .map {
+		width: 100%;
+		float: left;
+		padding-bottom: 60px;
+		margin-top: 0px;
+		padding: 0;
+	}
+
+	.gamefeature .map .text {
+		width: 100%;
+		padding: 0px 20px 0px 20px;
+		box-sizing: border-box;
+		text-align: center;
+		color: #fff;
+		line-height: 28px;
+		font-size: 18px;
+		letter-spacing: 1.5px;
+		color: #ddd;
+	}
+
+	.gamefeature .content {
+		width: 100%;
+		float: left;
+		margin-bottom: 60px;
+		padding: 0;
+	}
+
+	.gamefeature .minhhoagame {
+		width: 1200px;
+		padding: 30px 30px 30px 30px;
+		float: left;
+	}
+
+	.gamefeature .minhhoagame .oneblock {
+		width: 1200px;
+		padding-bottom: 20px;
+		float: left;
+	}
+
+	.gamefeature .minhhoagame .oneblock .blockleft {
+		width: 620px;
+		padding-right: 10px;
+		float: left;
+	}
+
+	.gamefeature .minhhoagame .oneblock .blockleft:last-child {
+		width: 620px;
+		padding-right: 0px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	.gamefeature .map .mapinfo {
+		width: 100%;
+		padding: 0 0px;
+		margin-top: 30px;
+		float: left;
+	}
+
+	.backer {
+		width: 1120px;
+		height: auto;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.roadmap-1 .rm-hoanggia {
+		width: 1120px;
+		margin: 20px 70px 80px 70px;
+		float: left;
+	}
+
+	.background-top-0 .hinhbieudien {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.tokenomic {
+		width: 100%;
+		float: left;
+		height: 720px;
+		background-size: 1560px;
+		background-image: url(images/tokenomics.jpg);
+		background-position: top center;
+	}
+
+	.gamefeature .content .feature {
+		width: 100%;
+		margin-bottom: 40px;
+		float: left;
+		box-sizing: border-box;
+	}
+
+	.gamefeature .content .feature .avatar {
+		width: 60%;
+		padding: 0 20%;
+		float: left;
+	}
+
+	.gamefeature .content .feature .infomation {
+		width: 96%;
+		padding: 0 2%;
+		float: left;
+		text-align: center;
+	}
+
+	.gamefeature .content .feature .infomation .title {
+		width: 80%;
+		text-align: center;
+		padding: 15px 10% 20px 10%;
+		color: #fff;
+		float: left;
+	}
+
+	.gamefeature .content .feature .infomation .text {
+		width: 100%;
+		padding: 0 40px;
+		box-sizing: border-box;
+		text-align: center;
+		color: #bbb;
+		line-height: 24px;
+		float: left;
+	}
+
+	.gamefeature .content {
+		margin-bottom: 0px;
+	}
+
+	.gamefeature .minhhoagame {
+		width: 100%;
+		padding: 0;
+		float: left;
+	}
+
+	.gamefeature .minhhoagame .oneblock {
+		width: 100%;
+		padding-bottom: 20px;
+		float: left;
+		margin-bottom: 40px;
+	}
+
+	.trung1 {
+		display: none;
+	}
+
+	.trung2 {
+		display: block;
+	}
+
+	.roadmap-1 {
+		width: 100%;
+		float: left;
+	}
+
+	.roadmap-1 .rm-hoanggia {
+		width: 100%;
+		margin: 20px 0px;
+		float: left;
+	}
+
+	.roadmap-1 .content {
+		width: 100%;
+		float: left;
+		height: auto;
+		text-align: center;
+		padding-bottom: 45px;
+		position: relative;
+	}
+
+	.roadmap-2 {
+		width: 100%;
+		float: left;
+	}
+
+	.roadmap-2 .content {
+		width: 100%;
+		float: left;
+		height: auto;
+		text-align: center;
+		padding-bottom: 45px;
+		position: relative;
+	}
+
+	.roadmap-1 .content .infomation {
+		width: 80%;
+		padding: 92px 10% 0 10%;
+		float: left;
+		position: relative;
+		top: 0;
+		left: 0;
+		color: #fff;
+		text-align: left;
+		letter-spacing: 1.5px;
+	}
+
+	.roadmap-1 .content .infomation .line-text-title {
+		width: 70%;
+		padding: 0 10%;
+		float: left;
+		line-height: 24px;
+	}
+
+	.roadmap-1 .content .infomation .line-text {
+		width: 80%;
+		padding: 0 10%;
+		float: left;
+		line-height: 24px;
+		color: #bbb;
+	}
+
+	.roadmap-1 .content .infomation .height-spacing {
+		width: 100%;
+		height: 20px;
+		float: left;
+	}
+
+	.roadmap-title {
+		width: 100%;
+		float: left;
+		padding-bottom: 40px;
+	}
+
+	.roadmap-title img {
+		width: 90%;
+		padding: 0 5%;
+	}
+
+	.ourteam-1 {
+		width: 1260px;
+		margin: 0 auto;
+		padding: 40px 0px 0 0px;
+		box-sizing: border-box;
+	}
+
+	.ourteam-1 .ourteam-title {
+		width: 1120px;
+		margin: 0px 70px 50px 70px;
+		float: left;
+	}
+
+	.ourteam-1 .coreteam {
+		width: 100%;
+		float: left;
+	}
+
+	.ourteam-1 .coreteam .core-personal {
+		width: 90%;
+		float: left;
+		padding: 0 5%;
+	}
+
+	.ourteam-1 .coreteam .core-personal .avatar {
+		width: 100%;
+		margin: 0;
+		float: left;
+		border-radius: 0 14px 0 14px;
+		overflow: hidden;
+	}
+
+	.ourteam-1 .coreteam .core-personal .core-personal-info {
+		width: 100%;
+		padding-right: 5%;
+		padding-left: 5%;
+		padding-top: 20px;
+		padding-bottom: 50px;
+		letter-spacing: 0.8px;
+		box-sizing: border-box;
+		float: left;
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.ourteam-1 .coreteam .core-personal .core-personal-info .name {
+		width: 100%;
+		float: left;
+		padding-bottom: 5px;
+		color: #fff;
+	}
+
+	.ourteam-1 .coreteam .core-personal .core-personal-info .chucdanh {
+		width: 100%;
+		float: left;
+		padding-top: 0px;
+		font-style: italic;
+		color: #aaa;
+	}
+
+	.ourteam-1 .coreteam .core-personal .core-personal-info .info {
+		width: 100%;
+		float: left;
+		padding-top: 25px;
+		color: #ccc;
+	}
+
+	.ourteam-1 {
+		width: 100%;
+		float: left;
+		padding: 40px 0px 0 0px;
+		box-sizing: border-box;
+	}
+
+	.ourteam-1 .ourteam-title {
+		width: 100%;
+		margin: 0px 0px 50px 0px;
+		float: left;
+	}
+
+	.ourteam-1 .personal {
+		width: 90%;
+		float: left;
+		padding: 0px 5% 40px 5%;
+		color: #fff;
+	}
+
+	.ourteam-1 .personal .team-info {
+		height: auto;
+	}
+
+	.backer {
+		width: 100%;
+		float: left;
+	}
+
+	.footer {
+		width: 100%;
+		margin: 0 auto;
+		background-color: #000;
+	}
+
+	.footer .infomation-footer {
+		width: 100%;
+		float: left;
+	}
+
+	.footer .infomation-footer .logo {
+		width: 100%;
+		float: left;
+	}
+
+	.footer .infomation-footer .logo video {
+		width: 50%;
+		float: left;
+		height: auto;
+		padding-left: 22%;
+	}
+
+	.footer .infomation-footer .copyright {
+		width: 30%;
+		float: left;
+		text-align: center;
+		color: #666;
+		font-size: 13px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.footer .infomation-footer ul {
+		width: 100%;
+		text-align: left;
+		color: #fff;
+		padding-top: 30px;
+	}
+
+	.footer .infomation-footer ul li {
+		float: left;
+		padding: 0 25px 0 0;
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		font-size: 15px;
+		color: #bbb;
+	}
+
+	.footer .infomation-footer ul li a {
+		color: #bbb;
+		padding: 5px 0;
+	}
+
+	.footer .infomation-footer ul li a:hover {
+		color: #ff00ae;
+	}
+
+	.footer video {
+		width: 100%;
+		float: left;
+		height: auto;
+	}
+
+	.tokenomic {
+		background-image: unset;
+		position: relative;
+		height: auto;
+		overflow-x: auto;
+		overflow-y: hidden;
+		display: block;
+	}
+
+	.tokenomic-mobile {
+		overflow-x: scroll;
+		height: calc(527px);
+		float: left;
+		overflow-y: hidden;
+		display: block !important;
+	}
+
+	.tokenomic-mobile-title {
+		display: block;
+		width: 100%;
+		float: left;
+		height: 28px;
+		background-size: 256px;
+		background-image: url(images/typo-token.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: top center;
+		margin-bottom: 12px;
+		margin-top: 24px;
+	}
+
+	.tokenomic-mobile img {
+		width: 1080px;
+		position: relative;
+	}
+
+	.header .logo {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.header .logo video {
+		width: 100%;
+	}
+
+	.bgroadmap2 {
+		display: block;
+	}
+
+	.bieudien2 {
+		display: block;
+	}
+
+	.comb {
+		display: block;
+	}
+
+	.logobacker-2 {
+		display: block;
+	}
+
+	.vongmathuat {
+		display: none;
+	}
+
+	.bieudien1 {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.ourteam-1 .personal .team-info {
+		font-size: 14px;
+	}
+
+	.ourlitepaper {
+		display: block;
+		text-align: center;
+		width: 40%;
+		margin: 35px 30% 40px 30%;
+	}
+}
+
+.inactive-link {
+	color: grey;
+}
