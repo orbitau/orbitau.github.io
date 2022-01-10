@@ -266,7 +266,7 @@ async function addTAUMToken() {
   const tokenAddress = '0x0c747625747f98315602636661B968fdFD5b466b';
   const tokenSymbol = 'TAUM';
   const tokenDecimals = 18;
-  const tokenImage = 'https://i.ibb.co/35xQt63/TAUM-Logo.png';
+  const tokenImage = 'https://i.ibb.co/McSzNpZ/Frame.png';
 
   try {
     // wasAdded is a boolean. Like any RPC method, an error may be thrown.
