@@ -12,6 +12,15 @@
 	<link rel="stylesheet" href="/assets/css/main.css">
 	<link rel="stylesheet" href="/assets/css/common.css">
 	<title>IDO - Orbitau</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QXDHM8DWX7"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-QXDHM8DWX7');
+	</script>
 </head>
 
 <body class="homepage">
@@ -155,9 +164,10 @@
 										Connect your wallet
 									</label>
 
-									<div id="network"  style="display: none;">
+									<div id="network" style="display: none;">
 										<p>
-											<label class="custom">Your wallet:</label><span id="selected-account"></span>
+											<label class="custom">Your wallet:</label><span
+												id="selected-account"></span>
 										</p>
 									</div>
 
@@ -166,7 +176,7 @@
 									</div>
 
 									<div id="connected" style="display: none">
-										<img id="btn-disconnect"  src="/assets/images/btn-disconnect.png" alt="">
+										<img id="btn-disconnect" src="/assets/images/btn-disconnect.png" alt="">
 									</div>
 
 								</li>
@@ -175,8 +185,8 @@
 										Enter TAUM token amount you want to buy
 									</label>
 									<div class="form-group text-end">
-										<input id="txt-amount" class="form-control text-end"
-											placeholder="Enter amount" aria-label="amount" pattern="\d+" min="3000" max="15000" >
+										<input id="txt-amount" class="form-control text-end" placeholder="Enter amount"
+											aria-label="amount" pattern="\d+" min="3000" max="15000">
 										<small class="text-muted text-nowrap">Min: 3,000, Max: 15,000</small>
 									</div>
 								</li>
@@ -228,13 +238,14 @@
 								<form class="mt-auto">
 									<div class="form-group">
 										<label class="custom">
-											Submit your Transaction Hash to us then we send the TAUM token to you if your Transaction Hash
+											Submit your Transaction Hash to us then we send the TAUM token to you if
+											your Transaction Hash
 											is validated
 										</label>
 										<div class="row align-items-end justify-content-center mt-2">
 											<div class="col-xl-9 col-lg-7 col-sm-8 col-12">
-												<input id="txt-txhash" type="text" class="form-control" placeholder="Transaction Hash"
-													aria-label="wallet">
+												<input id="txt-txhash" type="text" class="form-control"
+													placeholder="Transaction Hash" aria-label="wallet">
 											</div>
 											<div class="col-xl-3 col-lg-5 col-sm-4 col-6 text-center">
 												<button type="submit" class="btn btn-custom">
