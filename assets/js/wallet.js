@@ -85,7 +85,7 @@ const initPayButton = () => {
     let amountTAUM = $('#txt-amount')[0].value;
     let price = 0.035;
     if(!isIDOPage()) price = 0.01;
-    let amountEth = parseInt($('#txt-amount')[0].value) * price/450;
+    let amountEth = parseInt($('#txt-amount')[0].value) * price/480;
     console.log("Amount BNB=", amountEth,". Price : " , price);
     if (isNaN(amountEth) || amountTAUM < 3000 || amountTAUM > 30000) {
       alert("Please input the value between 3,000 and 30,000");
