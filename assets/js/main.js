@@ -27,14 +27,14 @@
 
 	$('#btn-copy').click(function () {
 		var text = "";
-		text = $('#wallet-id').text();
+		text = $('#wallet-id').text().trim();
 		fn.Copy(text);
 		alert("Copied to Clipboard");
 	});
 
 	$('#btn-copy0').click(function () {
 		var text = "";
-		text = $('#wallet-id0').text();
+		text = $('#wallet-id0').text().trim();
 		fn.Copy(text);
 		alert("Copied to Clipboard");
 	});
