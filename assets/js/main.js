@@ -25,14 +25,14 @@
 		},
 	};
 
-	$('.btn-copy').click(function () {
+	$('#btn-copy').click(function () {
 		var text = "";
 		text = $('#wallet-id').text();
 		fn.Copy(text);
 		alert("Copied to Clipboard");
 	});
-	
-	$('.btn-copy0').click(function () {
+
+	$('#btn-copy0').click(function () {
 		var text = "";
 		text = $('#wallet-id0').text();
 		fn.Copy(text);
