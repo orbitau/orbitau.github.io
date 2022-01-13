@@ -31,6 +31,13 @@
 		fn.Copy(text);
 		alert("Copied to Clipboard");
 	});
+	
+	$('.btn-copy0').click(function () {
+		var text = "";
+		text = $('#wallet-id0').text();
+		fn.Copy(text);
+		alert("Copied to Clipboard");
+	});
 
 	$(document).ready(function () {
 		fn.Launch();
